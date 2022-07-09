@@ -1,10 +1,6 @@
 <template>
   <div>
-    我是一级路由：
-    <router-link to="/my">my</router-link>
-    <router-link to="/home">home</router-link>
-    <router-link to="/assort">assort</router-link>
-    <router-link to="/order">order</router-link>
+    我是四级路由：
     <div style="border: 3px solid blue">
       <router-view></router-view>
     </div>
@@ -13,7 +9,7 @@
 
 <script>
 export default {
-  name: "PractiseRouterApp",
+  name: "PractiseRouterLove",
 
   data() {
     return {};
