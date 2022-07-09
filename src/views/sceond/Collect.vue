@@ -6,6 +6,7 @@
       <router-link to="/my/collect/life">life</router-link>
       <router-link to="/my/collect/shop">shop</router-link>
     </div>
+    <div><router-view></router-view></div>
   </div>
 </template>
 
